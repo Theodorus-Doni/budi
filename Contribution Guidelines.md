@@ -8,9 +8,9 @@ Reporting issues is crucial for maintaining the quality of the project. To ensur
 
 2. If the issue is not reported, create a new issue using the relevant template:
    - For issue related to error, such as unexpected behavior or crashes, use the [Error Issue Template](https://github.com/lncodes/.github/.github/ISSUE_TEMPLATE/ERROR_ISSUE_TEMPLATE.md).
-   - For issues related to features, such as requesting new features or enhancing existing ones, use the [Feature Issue Template](https://github.com/lncodes/.github/ISSUE_TEMPLATE/FEATURE_ISSUE_TEMPLATE.md).
-   - For issues related to code, such as improving readability or optimizing performance, use the [Code Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/CODE_ISSUE_TEMPLATE.md).
-   - For other project-related issues, such as updating documentation or adding unit tests, use the [General Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/GENERAL_ISSUE_TEMPLATE.md).
+   - For issues related to features, such as requesting new features or enhancing existing ones, use the [Feature Issue Template](https://github.com/lncodes/.github/.github/ISSUE_TEMPLATE/FEATURE_ISSUE_TEMPLATE.md).
+   - For issues related to code, such as improving readability or optimizing performance, use the [Code Issue Template](https://github.com/lncodes/.github/.github/ISSUE_TEMPLATE/CODE_ISSUE_TEMPLATE.md).
+   - For other project-related issues, such as updating documentation or adding unit tests, use the [General Issue Template](https://github.com/lncodes/.github/.github/ISSUE_TEMPLATE/GENERAL_ISSUE_TEMPLATE.md).
 3.  If the issue has been closed but remains relevant, create a new issue and reference the closed one.
 
 ## 🔧 Resolving Issues
@@ -37,7 +37,7 @@ Resolving issues is key to improving this project. This guide shows you how to f
    ```bash 
     git push origin [branch-name]
    ```
-8. Follow the [Pull Request Guidelines](https://github.com/lncodes/.github/blob/master/.github/PULL_REQUEST_GUIDELINES.md) to submit the changes for review.
+8. Follow the [Pull Request Guidelines](https://github.com/lncodes/.github/.github/PULL_REQUEST_GUIDELINES.md) to submit the changes for review.
 
 ## 🛡️ Code of Conduct
-By participating in this project, you agree to adhere to our [Code of Conduct](https://github.com/lncodes/.github/blob/master/.github/CODE_OF_CONDUCT.md). This ensures a positive and respectful environment for all contributors.
+By participating in this project, you agree to adhere to our [Code of Conduct](https://github.com/lncodes/.github/.github/CODE_OF_CONDUCT.md). This ensures a positive and respectful environment for all contributors.
