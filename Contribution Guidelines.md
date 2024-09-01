@@ -3,12 +3,9 @@ Thank you for your interest in contributing to **csharp-generic** by Last Night 
 
 ## 📝 Report Issues
 Reporting issues is crucial for maintaining the quality of the project. To ensure that issues are properly addressed, follow these steps:
-
-1. Before reporting a new issue, look through the project’s [issue tracker](issues) to check if the issues has already been reported.
-
+1. Before reporting a new issue, look through the project’s [issue tracker](https://github.com/lncodes/csharp-generic/issues) to check if the issues has already been reported.
 2. If the issue is not reported, create a new issue using the relevant template:
    - For issue related to error, such as unexpected behavior or crashes, use the [Error Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/ERROR_ISSUE_TEMPLATE.md).
-   
    - For issues related to features, such as requesting new features or enhancing existing ones, use the [Feature Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/FEATURE_ISSUE_TEMPLATE.md).
    - For issues related to code, such as improving readability or optimizing performance, use the [Code Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/CODE_ISSUE_TEMPLATE.md).
    - For other project-related issues, such as updating documentation or adding unit tests, use the [General Issue Template](https://github.com/lncodes/.github/blob/master/.github/ISSUE_TEMPLATE/GENERAL_ISSUE_TEMPLATE.md).
@@ -16,11 +13,10 @@ Reporting issues is crucial for maintaining the quality of the project. To ensur
 
 ## 🔧 Resolving Issues
 Resolving issues is key to improving this project. This guide shows you how to find, fix, and submit changes for any problems you come across. Follow these steps to help make the project better.
-1. Find the relevant issue in the project [issue tracker](issues).
-
+1. Find the relevant issue in the project [issue tracker](https://github.com/lncodes/csharp-generic/issues).
 2. Fork the repository to a personal GitHub account.
 3. Clone the forked repository to a local machine:
-   ```bash
+   ```bash 
     git clone https://github.com/lncodes/csharp-generic.git
    ```
 4. Create a new branch for the changes:
