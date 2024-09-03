@@ -16,9 +16,9 @@ jobs:
     - name: Replace placeholders in CONTRIBUTING
       run: |
         REPO_NAME=$(basename $GITHUB_REPOSITORY)
-        REPO_LINK="https://github.com/$GITHUB_REPOSITORY/"
+        REPO_LINK="https://github.com/$GITHUB_REPOSITORY"
         sed -i "s/{{REPOSITORY_NAME}}/$REPO_NAME/g" ./docs/CONTRIBUTING.md
-        sed -i "s|{{REPOSITORY_LINK}}/$REPO_LINK|g" ./docs/CONTRIBUTING.md
+        sed -i "s|{{REPOSITORY_LINK}}|$REPO_LINK|g" ./docs/CONTRIBUTING.md
 
     - name: Commit and push changes
       run: |
