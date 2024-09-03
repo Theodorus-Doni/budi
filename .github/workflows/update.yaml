@@ -16,23 +16,23 @@ jobs:
 
       - name: Replace project name in README
         run: |
-          # Define the project name
-          PROJECT_NAME=${{ github.repository_name }}
+          # Define the repository name
+          REPOSITORY_NAME=${{ github.repository_name }}
           
           # Replace placeholder in the README
-          sed "s/[ProjectName]/${PROJECT_NAME}/g" ./docs/README.md
+          sed "s/[RepositoryName]/${REPOSITORY_NAME}/g" ./docs/README.md
 
-      - name: Replace project name in CONTRIBUTING
+      - name: Replace repository name in CONTRIBUTING
         run: |
           # Replace placeholder in the CONTRIBUTING
-          sed "s/[ProjectName]/${PROJECT_NAME}/g" ./docs/CONTRIBUTING.md
+          sed "s/[RepositoryName]/${REPOSITORY_NAME}/g" ./docs/CONTRIBUTING.md
 
       - name: Commit updated files
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add .
-          git commit -m "Update README and CONTRIBUTING.md with project name"
+          git commit -m "Update README and CONTRIBUTING.md with repository name"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
