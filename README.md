@@ -1,1 +1,1 @@
-[issue](issues)
+[Report an Issue](./issues)
