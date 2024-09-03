@@ -20,12 +20,12 @@ jobs:
           PROJECT_NAME=${{ github.repository_name }}
           
           # Replace placeholder in the README
-          sed "s/[ProjectName]/${PROJECT_NAME}/g" README.md
+          sed "s/[ProjectName]/${PROJECT_NAME}/g" ./docs/README.md
 
       - name: Replace project name in CONTRIBUTING template
         run: |
           # Replace placeholder in the CONTRIBUTING
-          sed "s/[ProjectName]/${PROJECT_NAME}/g" CONTRIBUTING.md
+          sed "s/[ProjectName]/${PROJECT_NAME}/g" ./docs/CONTRIBUTING.md
 
       - name: Commit updated files
         run: |
