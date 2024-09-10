@@ -1,5 +1,5 @@
 # Contribution Guidelines
-Thank you for your interest in contributing to **{{REPOSITORY_NAME}}** by Last Night Codes! Your support is crucial to this project growth. To ensure everything goes smoothly, please follow these guidelines.
+Thank you for your interest in contributing to **budi** by Last Night Codes! Your support is crucial to this project growth. To ensure everything goes smoothly, please follow these guidelines.
 
 ## 📝 Report Issues
 Reporting issues is crucial for maintaining the quality of the project. To ensure that issues are properly addressed, follow these steps:
