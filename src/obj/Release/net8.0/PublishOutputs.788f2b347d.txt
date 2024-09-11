@@ -1,0 +1,5 @@
+C:\Users\Theod\source\repos\csharp-generic\src\bin\Release\net8.0\publish\Generic.exe
+C:\Users\Theod\source\repos\csharp-generic\src\bin\Release\net8.0\publish\Generic.dll
+C:\Users\Theod\source\repos\csharp-generic\src\bin\Release\net8.0\publish\Generic.deps.json
+C:\Users\Theod\source\repos\csharp-generic\src\bin\Release\net8.0\publish\Generic.runtimeconfig.json
+C:\Users\Theod\source\repos\csharp-generic\src\bin\Release\net8.0\publish\Generic.pdb
